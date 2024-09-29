@@ -56,11 +56,7 @@ int main(int argc, char **argv) {
         }
         // Waits here until Tab is clicked!
     }
-
-    // Options
-    double targetPointX = data["target_pose"]["x"];
-    double targetPointY = data["target_pose"]["y"];
-    double targetPointZ = data["target_pose"]["z"];
+    
     //create target points(represents the roads)
     Eigen::Vector3d first_target_point(5.5, -1, 3.1);
     Eigen::Vector3d second_target_point(-2.06667, -2.03333, 3.1);
